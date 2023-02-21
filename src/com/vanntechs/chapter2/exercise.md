@@ -101,3 +101,30 @@
 - Print "continue?" (y/n)
 - Input continue
 - Print "Overall MPG"
+
+14.
+- Set continue to "y"
+- While continue equals "y"
+  - Set loop += 1
+  - Print "Enter miles"
+  - Input miles
+  - totalMiles += miles
+  - Print "Enter gallons"
+  - Input gallons
+  - totalGallons += gallons
+    - If loop < 3
+      - Continue "y"
+    - Else 
+      - Do you want to continue ? "y/n" 
+      - Input continue
+
+15.
+- Set cumulativeWeight = 0, count = 0, more = y
+- While more "y"
+  - count += 1
+  - Print "Enter kg weight (greater than zero):"
+  - Input kgWeight
+  - totalKgWeight += kgWeight / count
+  - Print more ? (y/n)
+  - Input more
+- Print "the average weight is " + totalKgWeight
