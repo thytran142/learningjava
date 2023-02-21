@@ -14,40 +14,63 @@
 - Print "Enter how many sheets of paper is in the envelope"
 - Input sheetsOfPaper
 - If sheetsOfPaper > 0 and <= 5
-  - numberOfStamps = 1 
   - Print "Please use 1 stamp for mailing"
 - Else if sheetsOfPaper > 6 and <=10
-  - numberOfStamps = 2
   - Print "Please use 2 stamps for mailing"
 - Else if sheetsOfPaper > 10 and <= 15
-  - numberOfStamps = 3
   - Print "Please use 3 stamps for mailing"
 - Else
   - Print "Cannot mail the envelope"
 
 5.
 - Print "cell nucleus? (y/n)"
-- input cellNucleus
+- Input cellNucleus
 - If cellNucleus equals "n"
-  - print "Monera kingdom"
+  - Print "Monera kingdom"
 - Else
-  - print "single celled? (y/n)"
-  - input singleCelled
-  - if singleCelled equals "y"
-    - print "Protoctista kingdom"
+  - Print "single celled? (y/n)"
+  - Input singleCelled
+  - If singleCelled equals "y"
+    - Print "Protoctista kingdom"
   - Else
-    - print "photosynthetic? (y/n)"
-    - input photosynthetic
-    - if photosynthetic equals "y"
-      - print "Plantae kingdom"
+    - Print "photosynthetic? (y/n)"
+    - Input photosynthetic
+    - If photosynthetic equals "y"
+      - Print "Plantae kingdom"
     - Else
-      - print "nervous system? (y/n)"
-      - input nervousSystem
-      - if nervousSystem equals "y"
-        - print "Animalia kingdom"
+      - Print "nervous system? (y/n)"
+      - Input nervousSystem
+      - If nervousSystem equals "y"
+        - Print "Animalia kingdom"
       - Else
-        - print "Fungi kingdom"
+        - Print "Fungi kingdom"
       
+7.
+- Print "Enter the material to calculate the speed of sound"
+- Input material
+- If material = "iron"
+  - Print "the speed of sound is 5950 meters/sec"
+- Else if material = "polystyrene"
+  - Print "the speed of sound is 2350 meters/sec"
+- Else if material = "water"
+  - Print "the speed of sound is 1531 meters/sec"
+- Else if material = "air"
+  - Print "Enter the temperature in degree celsius"
+  - Input temperatureCelsius
+  - Print "The speed of sound is " + ( 331.5 + (0.6 x temperatureCelsius)) + " meters/sec"
 
+9.
+- Print "Enter the annual return value"
+- Input annualReturn
+- If annualReturn < -10
+  - Print "The rate of return is indicative of a bear market (which occurs 10% of the time)."
+- If annualReturn >= -10 and <= 10
+  - Print "The rate of return is indicative of a stagnant market (which occurs 30% of the time)."
+- If annualReturn > 10 to <= 30
+  - Print "The rate of return is indicative of a bull market (which occurs 43% of the time)."
+- If annualReturn > 30
+  - Print "The rate of return is indicative of a boom market (which occurs 17% of the time)."
+
+10.
 
 
