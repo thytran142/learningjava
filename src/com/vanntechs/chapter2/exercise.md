@@ -121,7 +121,7 @@
 15.
 - Set cumulativeWeight = 0, count = 0, more = y
 - While more "y"
-  - count += 1
+  - Set count += 1
   - Print "Enter kg weight (greater than zero):"
   - Input kgWeight
   - totalKgWeight += kgWeight / count
