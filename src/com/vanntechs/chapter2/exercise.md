@@ -90,5 +90,14 @@
 - If continue "n"
   - Print "total miles per gallons is " + MPG
   
-
-
+13.
+- Set continue to "y"
+- While continue equals "y"
+  - Print "Enter miles (-999 to quit)"
+  - Input miles
+  - Print "Enter gallons"
+  - Input gallons
+  - MPG += miles/gallons
+- Print "continue?" (y/n)
+- Input continue
+- Print "Overall MPG"
