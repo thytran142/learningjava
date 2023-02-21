@@ -72,5 +72,23 @@
   - Print "The rate of return is indicative of a boom market (which occurs 17% of the time)."
 
 10.
+- Print "enter starting balance"
+- Input startingBalance
+- integer oneHundred = 100000 % startingBalance
+- integer oneMillion = 1000000 % startingBalance
+- Print "It takes " + oneHundred + " years to reach $100,000."
+- Print "It takes " + oneMillion + " years to reach $1, 000, 000."
+
+12.
+- Set continue to "y"
+- while continue equals "y"
+  - Print "Enter miles"
+  - Input miles
+  - Print "Enter gallons"
+  - Input gallons
+  - MPG += miles/gallons
+- If continue "n"
+  - Print "total miles per gallons is " + MPG
+  
 
 
